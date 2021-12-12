@@ -1,0 +1,38 @@
+
+.room {
+    height: 200px;
+    
+}
+.ballon {
+    border: 1px solid #111;
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top:30%;
+    left: 10%;
+   
+    background-color: red;
+    -webkit-animation-name: ballon;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes ballon {
+    from{
+        -webkit-transform: translate3d(0,0,0);
+
+    }
+    25%{
+        -webkit-transform: translate3d(1000px,0,0) rotate3d(0,0,1,360deg);
+    }
+    50%{
+        -webkit-transform: translate3d(1000px,200px,0) rotate3d(0,0,1,1800deg);
+    }
+    75%{
+        -webkit-transform: translate3d(0,200px,0) rotate3d(0,0,1,-1200deg);
+    }
+    100%{
+        -webkit-transform: translate3d(0,0,0) rotate3d(0,0,1,1000deg);
+    }
+}
