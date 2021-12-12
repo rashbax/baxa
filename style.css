@@ -26,12 +26,12 @@
         -webkit-transform: translate3d(1000px,0,0) rotate3d(0,0,1,360deg);
     }
     50%{
-        -webkit-transform: translate3d(1000px,200px,0) rotate3d(0,0,1,1800deg);
+        -webkit-transform: translate3d(1000px,200px,0) rotate3d(0,0,1,-360deg);
     }
     75%{
         -webkit-transform: translate3d(0,200px,0) rotate3d(0,0,1,-1200deg);
     }
     100%{
-        -webkit-transform: translate3d(0,0,0) rotate3d(0,0,1,1000deg);
+        -webkit-transform: translate3d(0,0,0) rotate3d(0,0,1,-600deg);
     }
 }
