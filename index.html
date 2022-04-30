@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1><span>JavaScript</span> and forms</h1>
+            <h3>lesson №16</h3>
+            <form action="" name="main" class="form">
+                <div class="form__left">
+                    <div class="form__input__text">
+                        <h4>Input area</h4>
+                        <input class="text" type="text" name="main__text" placeholder="write something">
+                    </div>
+                    <div class="form__input__textarea">
+                        <h4>Textarea</h4>
+                        <textarea class="textarea" placeholder="write something" name="main__textarea" id="" cols="30" rows="10" maxlength="50"></textarea>
+                    <h1><span name="mainSpan" class="mainSpan"></span>ta so'z</h1>
+                    </div>
+                    <div class="form__input__btn">
+                        <button class="btn" name="main_btn">Button for send forms</button>
+                        <br>
+                        <span class="sending">malumot muvafaqqiyatli junatildi</span>
+                    </div>
+                    <button>2</button>
+                </div>
+                <div class="form__right">
+                    <div class="form__input__radio">
+                        <h4>Radiobutton</h4>
+                        <input checked type="radio" name="main_radio">
+                        <label for="">button 1</label>
+                        <input type="radio" name="main_radio">
+                        <label for="">button 1</label>
+                    </div>
+                    <div class="form__input__check">
+                        <input type="checkbox" name="main_check">
+                        <label for="">checkbox</label>
+                    </div>
+                    <div class="form__input__file">
+                        <h4>Select file</h4>
+                        <input type="file" name="main_file">
+                    </div>
+                    <div class="form__input__select">
+                        <h4>List</h4>
+                        <select name="main_select" id="" class="select">
+                            <option value="1">20</option>
+                            <option value="2">30</option>
+                            <option value="3">40</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
